@@ -1,0 +1,84 @@
+.adminTv-category-title{
+    border-radius: 5px;
+    background-color: #adb5bd;
+    color:black;
+    cursor: pointer;
+    font-size:20px;
+    font-weight: 600;
+}
+
+.adminTv-category-title:hover{
+    background-color: #bdb5bd;
+}
+
+.adminTv-category-delete-sec{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-top:15px;
+}
+.adminTv-category-delete-sec:hover{
+    background-color: #adb5bd;
+
+}
+
+.adminTv-category-add{
+    width:10%;
+    background-color:#adb5bd;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.adminTv-category-add:hover{
+    transition: .5s;
+    border : 2px solid #adb5bd;
+    background-color:white;
+    color:#adb5bd;
+
+}
+
+@media screen and (min-width : 1020px) and (max-width: 5000px) {
+
+    .tv-channel-admin{
+        width:21%;
+        margin : 2%;
+        border-radius:8px;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width : 820px) and (max-width: 1020px) {
+
+    .tv-channel-admin{
+        width:21%;
+        margin : 2%;
+        border-radius:8px;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (min-width : 450px) and (max-width: 820px) {
+    .tv-channel-admin{
+        width:21%;
+        margin : 2%;
+        border-radius:8px;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .tv-channel-admin{
+        width:46%;
+        margin : 2%;
+        border-radius:8px;
+        cursor: pointer;
+    }
+}
+
